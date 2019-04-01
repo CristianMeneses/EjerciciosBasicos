@@ -6,6 +6,7 @@
 package interfaz;
 
 import logica.CapturaTeclado;
+import logica.EjemploCondicional;
 
 /**
  *
@@ -16,7 +17,10 @@ public class Principal {
     public static void main(String[] Args) {
         
         CapturaTeclado ct = new CapturaTeclado();
-        System.out.println("Ejemplo de captura");
+        EjemploCondicional ec = new EjemploCondicional();
+        System.out.println("Ejemplo de captura:");
         ct.operacion();
+        System.out.println("Ejemplo Condicional:");
+        ec.operacion();
     }
 }
