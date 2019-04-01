@@ -5,6 +5,8 @@
  */
 package interfaz;
 
+import logica.CapturaTeclado;
+
 /**
  *
  * @author Estudiantes
@@ -12,6 +14,9 @@ package interfaz;
 public class Principal {
     
     public static void main(String[] Args) {
-        System.out.println("Hola Mundo, es mi primer programa en java");
+        
+        CapturaTeclado ct = new CapturaTeclado();
+        System.out.println("Ejemplo de captura");
+        ct.operacion();
     }
 }
